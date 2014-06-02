@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>slider.js</artifactId>
-    <version>14-SNAPSHOT</version>
+    <version>14</version>
     <name>Jssor Slider</name>
     <description>WebJar for Jssor slider</description>
     <url>http://webjars.org</url>
@@ -35,7 +35,7 @@
         <url>http://github.com/webjars/slider.js</url>
         <connection>scm:git:https://github.com/webjars/slider.js</connection>
         <developerConnection>scm:git:https://github.com/webjars/slider.js.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>slider.js-14</tag>
     </scm>
     
     <build>
@@ -72,7 +72,7 @@
                                 <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/slider.js-${upstream.version}/js" includes="jssor*"/>
+                                    <fileset dir="${project.build.directory}/slider.js-${upstream.version}/js" includes="jssor*" />
                                 </move> 
                             </target>
                         </configuration>
