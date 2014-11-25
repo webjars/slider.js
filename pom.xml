@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>slider.js</artifactId>
-    <version>17.0-SNAPSHOT</version>
+    <version>17.0</version>
     <name>Jssor Slider</name>
     <description>WebJar for Jssor slider</description>
     <url>http://webjars.org</url>
@@ -35,7 +35,7 @@
         <url>http://github.com/webjars/slider.js</url>
         <connection>scm:git:https://github.com/webjars/slider.js</connection>
         <developerConnection>scm:git:https://github.com/webjars/slider.js.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>slider.js-17.0</tag>
     </scm>
     
     <build>
